@@ -1,6 +1,6 @@
 <template>
   <div>
-      我是注册页面
+      商品分类编辑页面
   </div>
 </template>
 

@@ -2,6 +2,8 @@
 import Vue from 'vue';
 // 6.导入normalize.css
 import 'normalize.css';
+//7.引入全局样式
+import './less/index.less';
 //2引入路由
 import VueRouter from 'vue-router';
 // 5.引入element Ui 并引入样式
@@ -16,7 +18,7 @@ import routerConfig from './router/router-config.js';
 //3.引入axios
 import axios from 'axios';
 //3.3 一配置, 以后所有的请求就会自动使用这个域名
-axios.defaults.baseURL = 'http://157.122.54.189:9095';
+axios.defaults.baseURL = 'http://localhost:8899';
 //3.2为了方便使用，绑定在原型上
 Vue.prototype.$http = axios;
 
